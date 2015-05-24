@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualDesign projectType="vmd-midp-game" version="1">
+    <Document version="1">
+        <Component componentID="0" typeID="C#Root">
+            <Component componentID="1" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="VFireball333"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/Fireball333.png"/>
+            </Component>
+            <Component componentID="4" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="VGameBg"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/GameBg.png"/>
+            </Component>
+            <Component componentID="76" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="Vgo"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/go.png"/>
+            </Component>
+            <Component componentID="77" typeID="Corg.netbeans.modules.vmd.game.model.TiledLayer">
+                <Property name="layercd.prop.name" typeID="Pjava.lang.String" value="VGameOver"/>
+                <Property name="layercd.prop.imageresource" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource" value="R76"/>
+                <Property name="layercd.prop.tile.width" typeID="Pint" value="V250"/>
+                <Property name="layercd.prop.tile.height" typeID="Pint" value="V85"/>
+                <Property name="tiledlayercd.prop.tiles" typeID="P#TiledLayerTiles" value="V1,1,1"/>
+            </Component>
+            <Component componentID="10" typeID="Corg.netbeans.modules.vmd.game.model.TiledLayer">
+                <Property name="layercd.prop.name" typeID="Pjava.lang.String" value="VGameBackGround"/>
+                <Property name="layercd.prop.imageresource" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource" value="R4"/>
+                <Property name="layercd.prop.tile.width" typeID="Pint" value="V160"/>
+                <Property name="layercd.prop.tile.height" typeID="Pint" value="V120"/>
+                <Property name="tiledlayercd.prop.tiles" typeID="P#TiledLayerTiles" value="V3,4,1,2,3,4,5,6,7,8,9,10,11,12"/>
+            </Component>
+            <Component componentID="11" typeID="Corg.netbeans.modules.vmd.game.model.Scene">
+                <Property name="scenecd.prop.name" typeID="Pjava.lang.String" value="VLevel1"/>
+                <Property name="scenecd.prop.sceneitems" typeID="1CSceneItem" value="A3:3_R713_R723_R73"/>
+                <Component componentID="71" typeID="CSceneItem">
+                    <Property name="sceneitemcd.prop.layer" typeID="Corg.netbeans.modules.vmd.game.model.Layer" value="R57"/>
+                    <Property name="sceneitemcd.prop.lock" typeID="Pboolean" value="Vfalse"/>
+                    <Property name="sceneitemcd.prop.visible" typeID="Pboolean" value="Vtrue"/>
+                    <Property name="sceneitemcd.prop.position" typeID="P#Point" value="V560,0"/>
+                    <Property name="sceneitemcd.prop.z.order" typeID="Pint" value="V0"/>
+                </Component>
+                <Component componentID="72" typeID="CSceneItem">
+                    <Property name="sceneitemcd.prop.layer" typeID="Corg.netbeans.modules.vmd.game.model.Layer" value="R56"/>
+                    <Property name="sceneitemcd.prop.lock" typeID="Pboolean" value="Vfalse"/>
+                    <Property name="sceneitemcd.prop.visible" typeID="Pboolean" value="Vtrue"/>
+                    <Property name="sceneitemcd.prop.position" typeID="P#Point" value="V560,0"/>
+                    <Property name="sceneitemcd.prop.z.order" typeID="Pint" value="V1"/>
+                </Component>
+                <Component componentID="73" typeID="CSceneItem">
+                    <Property name="sceneitemcd.prop.layer" typeID="Corg.netbeans.modules.vmd.game.model.Layer" value="R10"/>
+                    <Property name="sceneitemcd.prop.lock" typeID="Pboolean" value="Vfalse"/>
+                    <Property name="sceneitemcd.prop.visible" typeID="Pboolean" value="Vtrue"/>
+                    <Property name="sceneitemcd.prop.position" typeID="P#Point" value="V0,0"/>
+                    <Property name="sceneitemcd.prop.z.order" typeID="Pint" value="V2"/>
+                </Component>
+            </Component>
+            <Component componentID="74" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="Vskullcrossbones"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/skullcrossbones.png"/>
+            </Component>
+            <Component componentID="75" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="VHeart"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/Heart.png"/>
+            </Component>
+            <Component componentID="45" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="Vexplosion"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/explosion.png"/>
+            </Component>
+            <Component componentID="55" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource">
+                <Property name="imageresourcecd.prop.name" typeID="Pjava.lang.String" value="Vpeq"/>
+                <Property name="imageresourcecd.prop.imagepath" typeID="Pjava.lang.String" value="V/peq.png"/>
+            </Component>
+            <Component componentID="57" typeID="Corg.netbeans.modules.vmd.game.model.TiledLayer">
+                <Property name="layercd.prop.name" typeID="Pjava.lang.String" value="VResumeExit"/>
+                <Property name="layercd.prop.imageresource" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource" value="R55"/>
+                <Property name="layercd.prop.tile.width" typeID="Pint" value="V40"/>
+                <Property name="layercd.prop.tile.height" typeID="Pint" value="V40"/>
+                <Property name="tiledlayercd.prop.tiles" typeID="P#TiledLayerTiles" value="V1,2,3,2"/>
+            </Component>
+            <Component componentID="56" typeID="Corg.netbeans.modules.vmd.game.model.TiledLayer">
+                <Property name="layercd.prop.name" typeID="Pjava.lang.String" value="VPauseExit"/>
+                <Property name="layercd.prop.imageresource" typeID="Corg.netbeans.modules.vmd.game.model.ImageResource" value="R55"/>
+                <Property name="layercd.prop.tile.width" typeID="Pint" value="V40"/>
+                <Property name="layercd.prop.tile.height" typeID="Pint" value="V40"/>
+                <Property name="tiledlayercd.prop.tiles" typeID="P#TiledLayerTiles" value="V1,2,1,2"/>
+            </Component>
+        </Component>
+    </Document>
+</VisualDesign>
